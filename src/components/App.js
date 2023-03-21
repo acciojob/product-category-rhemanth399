@@ -31,7 +31,7 @@ const App = () => {
     <div>
         
         <label htmlFor="dropdown"></label>
-        <select id='dropdown' value={selectOption} onChange={handle}>
+        <select id='dropdown' value={gender} onChange={handle}>
           <option value="male">Male</option>
           <option value='female'>Female</option>
         </select>
